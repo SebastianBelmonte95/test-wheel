@@ -4,7 +4,7 @@ import re
 
 from setuptools import setup, find_packages
 
-NAME = "test-wheel"
+NAME = "test_wheel"
 PACKAGES = find_packages(where="src")
 META_PATH = os.path.join("src", "__init__.py")
 KEYWORDS = ["class", "attribute", "boilerplate"]
