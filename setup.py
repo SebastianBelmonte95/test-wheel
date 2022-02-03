@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 NAME = "test-wheel"
 PACKAGES = find_packages(where="src")
-META_PATH = os.path.join("src", "attr", "__init__.py")
+META_PATH = os.path.join("src", "__init__.py")
 KEYWORDS = ["class", "attribute", "boilerplate"]
 INSTALL_REQUIRES = []
 CLASSIFIERS = [
