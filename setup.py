@@ -5,7 +5,7 @@ import re
 from setuptools import setup, find_packages
 
 NAME = "test_wheel"
-PACKAGES = find_packages(where=NAME)
+PACKAGES = find_packages()
 META_PATH = os.path.join(NAME, "__init__.py")
 KEYWORDS = ["class", "attribute", "boilerplate"]
 INSTALL_REQUIRES = []
@@ -57,11 +57,10 @@ if __name__ == "__main__":
         maintainer=find_meta("author"),
         maintainer_email=find_meta("email"),
         keywords=KEYWORDS,
-        long_description=read("README.md"),
+        long_description=open("README.md").read(),
         packages=PACKAGES,
         package_dir={"": NAME},
         zip_safe=False,
         classifiers=CLASSIFIERS,
         install_requires=INSTALL_REQUIRES,
-        options={"bdist_wheel": {"universal": "1"}},
     )
