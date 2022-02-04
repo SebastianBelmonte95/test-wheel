@@ -1,5 +1,5 @@
 __title__ = "test-wheel"
-__version__ = "0.0.1"
+__version__ = "0.0.2"
 __author__ = "Sebastian Belmonte"
 __email__ = "sebastianbelmonte95@gmail.com"
 __license__ = "MIT"
