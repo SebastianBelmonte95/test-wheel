@@ -5,7 +5,7 @@ import re
 from setuptools import setup, find_packages
 
 NAME = "test_wheel"
-PACKAGES = find_packages(where="src")
+PACKAGES = find_packages(where=NAME)
 META_PATH = os.path.join(NAME, "__init__.py")
 KEYWORDS = ["class", "attribute", "boilerplate"]
 INSTALL_REQUIRES = []
