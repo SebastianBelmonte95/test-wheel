@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 NAME = "test_wheel"
 PACKAGES = find_packages(where="src")
-META_PATH = os.path.join("src", "__init__.py")
+META_PATH = os.path.join(NAME, "__init__.py")
 KEYWORDS = ["class", "attribute", "boilerplate"]
 INSTALL_REQUIRES = []
 CLASSIFIERS = [
@@ -59,7 +59,7 @@ if __name__ == "__main__":
         keywords=KEYWORDS,
         long_description=read("README.md"),
         packages=PACKAGES,
-        package_dir={"": "src"},
+        package_dir={"": NAME},
         zip_safe=False,
         classifiers=CLASSIFIERS,
         install_requires=INSTALL_REQUIRES,
