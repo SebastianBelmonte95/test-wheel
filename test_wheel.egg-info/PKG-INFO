@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: test-wheel
+Version: 0.0.2
+Summary: This project teaches how to properly package and distributing a Python module with Wheel
+Home-page: https://github.com/SebastianBelmonte95/test-wheel
+Author: Sebastian Belmonte
+Author-email: sebastianbelmonte95@gmail.com
+Maintainer: Sebastian Belmonte
+Maintainer-email: sebastianbelmonte95@gmail.com
+License: MIT
+Keywords: class,attribute,boilerplate
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+License-File: LICENSE
+
+# test-wheel
+

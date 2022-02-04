@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+test_wheel/test_wheel.egg-info/PKG-INFO
+test_wheel/test_wheel.egg-info/SOURCES.txt
+test_wheel/test_wheel.egg-info/dependency_links.txt
+test_wheel/test_wheel.egg-info/not-zip-safe
+test_wheel/test_wheel.egg-info/top_level.txt
