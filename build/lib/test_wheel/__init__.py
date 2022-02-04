@@ -1,0 +1,7 @@
+__title__ = "test-wheel"
+__version__ = "0.0.2"
+__author__ = "Sebastian Belmonte"
+__email__ = "sebastianbelmonte95@gmail.com"
+__license__ = "MIT"
+__uri__ = "https://github.com/SebastianBelmonte95/test-wheel"
+__description__ = "This project teaches how to properly package and distributing a Python module with Wheel"
